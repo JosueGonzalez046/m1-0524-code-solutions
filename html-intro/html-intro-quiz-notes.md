@@ -4,19 +4,19 @@
 
 Answer the following questions in the provided markdown file before turning in this exercise:
 
-- Where do you put non-visible content about the HTML document?
+- Where do you put non-visible content about the HTML document? in the head tag
 
-- Where do you put visible content about the HTML document?
+- Where do you put visible content about the HTML document? in the body tag
 
-- Where do the `<head>` and `<body>` tags go in a valid HTML document?
+- Where do the `<head>` and `<body>` tags go in a valid HTML document? inside an html tag
 
-- What is the purpose of a `<!DOCTYPE>` declaration?
+- What is the purpose of a `<!DOCTYPE>` declaration? Declares the document type and version of HTML.
 
-- Give five examples of HTML element types.
+- Give five examples of HTML element types. Doctype, html. head, title, and body
 
-- What is the purpose of HTML attributes?
+- What is the purpose of HTML attributes? attributes contain additional information and or functionality for elements, usually in name/value pairs.
 
-- Give an example of an HTML entity (escape character).
+- Give an example of an HTML entity (escape character). &copy;
 
 ## Notes
 
