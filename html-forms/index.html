@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Forms</title>
+  </head>
+  <body>
+    <form>
+      <p>
+        <label for="Email">Email</label>
+        <input type="email" id="email" name="Email" required />
+      </p>
+      <p>
+        <label for="whyscodingcool?">Why is coding cool?</label>
+
+        <select>
+          <option value="select option">Select an option</option>
+          <option value="Because its interesting">
+            Because its interesting
+          </option>
+          <option value="Because its powerful">Because its powerful</option>
+          <option value="Because its fun">Because its fun</option>
+        </select>
+      </p>
+
+      <fieldset>
+        <legend>Favorite Language (choose one)</legend>
+        <input type="radio" id="HTML" name="Favorite Language" value="HTML" />
+        <label for="HTML">HTML</label>
+        <input type="radio" id="CSS" name="Favorite Language" value="CSS" />
+        <label for="CSS">CSS</label>
+        <input
+          type="radio"
+          id="JAVASCRIPT"
+          name="Favorite Language"
+          value="JAVASCRIPT" />
+        <label for="JAVASCRIPT">JAVASCRIPT</label>
+      </fieldset>
+      <p>Would you like to sign up for more information?</p>
+      <p>
+        <label><input type="checkbox" />Sign Me Up!</label>
+      </p>
+      <p>Comments</p>
+      <textarea cols="30" rows="8"></textarea>
+      <p>
+        <button type="submit">Submit</button>
+      </p>
+    </form>
+  </body>
+</html>
