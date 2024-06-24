@@ -102,12 +102,15 @@ header img {
 }
 
 .section-container h2 {
-  font-size: 27px;
+  font-size: 25px;
+  font-family: avenir, sans-serif;
 }
 
 .section-container p {
   width: 40%;
   margin-left: 29.9%;
+  font-family: avenir, sans-serif;
+  font-size: 15px;
 }
 
 .item-container {
@@ -188,6 +191,8 @@ footer {
   background: #fafafa;
   height: 80%;
   width: 1000px;
+  padding-top: 20px;
+  margin-top: 10px;
 }
 
 .smallContainer h2 {
@@ -200,4 +205,13 @@ footer {
 .smallContainer p {
   margin-top: 10px;
   margin-bottom: 30px;
+}
+
+.lastText {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.lastText li {
+  list-style: none;
 }
